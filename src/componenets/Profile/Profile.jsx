@@ -1,11 +1,11 @@
-// import s from './Profile.module.css';
+import s from './Profile.module.css';
 import PropTypes from 'prop-types';
 
 
 const Profile = (props) => {
     const { username, tag, location, avatar, stats } = props;
     return (
-        <div class="profile" >
+        <div className={s.profile} >
             <div class="description">
                 <img
                     src={avatar}
