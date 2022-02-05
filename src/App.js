@@ -1,10 +1,12 @@
 import './App.css';
+import Profile from './Profile/Profile.jsx'
+import user from './data/user.json';
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <Profile username={user.username} tag={user.tag} location={user.location} avatar={user.avatar} stats={user.stats} />
+    </>
   );
 }
 
