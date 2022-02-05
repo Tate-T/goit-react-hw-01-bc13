@@ -1,23 +1,43 @@
-/* .statistics {
+.statistics {
+    margin: 0 auto;
+    background-color:lightblue;
+    font-style: oblique;
+    padding: 80px;
+    width: 600px;
+}
 
+.statisticsCard {
+    background-color: #fff;
+    text-align: center;
 }
 
 .title {
-
+    margin: 0;
+    padding: 40px;
+font-style: normal;
+text-transform: uppercase;
+color: grey;
 }
 
 .statList {
-
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
 }
 
 .item {
-
+    padding: 20px 36.5px;
+    border: 1.5px solid;
+    border-color: darkslategray;
 }
 
-.label {
-
+.label, .percentage {
+color: #fff;
+font-style: normal;
 }
 
 .percentage {
-
-} */
+    font-size: 25px;
+}
