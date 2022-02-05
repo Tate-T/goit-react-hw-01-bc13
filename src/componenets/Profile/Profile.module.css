@@ -1,35 +1,62 @@
-/* .profile {
-    color: aquamarine;
+h2 {
+    color: blueviolet;
+    font-style: italic;
+    font-size: 46px;
+    margin: 0;
+    text-align: center;
+}
+
+.profile {
+    margin: 0 auto;
+    background-color:lightblue;
+    text-align: center;
+    font-style: oblique;
+    padding: 100px 10px;
+    width: 600px;
+}
+
+.cardProfile {
+    margin: 0 auto;
+    width: 400px;
+    background-color:lightcyan;
 }
 
 .description {
-
+    background-color: white;
+padding: 30px;
+line-height: 0.8;
 }
 
 .avatar {
-
+display: block;
+margin: 0 auto;
+width: 200px;
+border-radius: 100px;
+background-color: aquamarine;
 }
 
-.name {
-
+.name, .quantity {
+font-weight: bold;
+font-style: normal;
+font-size: 24px;
 }
 
-.tag {
-
-}
-
-.location {
-
+.tag, .location, .label {
+    font-style: normal;
+    font-size: 16px;
+    color: darkgrey;
 }
 
 .stats {
-
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
 }
 
-.label {
-
+.statsList {
+    padding: 20px 36px;
+    border: 2px solid;
+    border-color: darkslategray;
 }
-
-.quantity {
-
-} */

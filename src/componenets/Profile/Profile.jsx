@@ -5,32 +5,37 @@ import PropTypes from 'prop-types';
 const Profile = (props) => {
     const { username, tag, location, avatar, stats } = props;
     return (
-        <div className={s.profile} >
-            <div className={s.description}>
-                <img
-                    src={avatar}
-                    alt="User avatar"
-                    className={s.avatar}
-                />
-                <p className={s.name}>{username}</p>
-                <p className={s.tag}>{tag}</p>
-                <p className={s.location}>{location}</p>
-            </div>
-            <ul className={s.stats}>
-                <li>
-                    <span className={s.label}>Followers</span>
-                    <span className={s.quantity}>{stats.followers}</span>
-                </li>
-                <li>
-                    <span className={s.label}>Views</span>
-                    <span className={s.quantity}>{stats.views}</span>
-                </li>
-                <li>
-                    <span className={s.label}>Likes</span>
-                    <span className={s.quantity}>{stats.likes}</span>
-                </li>
-            </ul>
-        </div >
+        <>
+            <h2>TASK 1</h2>
+            <div className={s.profile} >
+                <div className={s.cardProfile}>
+                    <div className={s.description}>
+                        <img
+                            src={avatar}
+                            alt="User avatar"
+                            className={s.avatar}
+                        />
+                        <p className={s.name}>{username}</p>
+                        <p className={s.tag}>{tag}</p>
+                        <p className={s.location}>{location}</p>
+                    </div>
+                    <ul className={s.stats}>
+                        <li className={s.statsList}>
+                            <span className={s.label}>Followers</span> <br />
+                            <span className={s.quantity}>{stats.followers}</span>
+                        </li>
+                        <li className={s.statsList}>
+                            <span className={s.label}>Views</span> <br />
+                            <span className={s.quantity}>{stats.views}</span>
+                        </li>
+                        <li className={s.statsList}>
+                            <span className={s.label}>Likes</span> <br />
+                            <span className={s.quantity}>{stats.likes}</span>
+                        </li>
+                    </ul>
+                </div>
+            </div >
+        </>
     )
 }
 

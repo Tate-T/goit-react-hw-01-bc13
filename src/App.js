@@ -11,6 +11,7 @@ import transactions from './data/transactions.json';
 function App() {
   return (
     <>
+      <h1>REACT-HOMEWORK 1</h1>
       <Profile username={user.username} tag={user.tag} location={user.location} avatar={user.avatar} stats={user.stats} />;
       <Statistics title="Upload stats" stats={data} />;
       <Statistics stats={data} />;
