@@ -1,15 +1,29 @@
-/* .item {
-
+.item {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(214, 220, 221);
+    box-shadow: 3px 3px 3px #000;
 }
 
-.status {
+.online, .offline {
+    margin-left: 20px;
+    border-radius: 100%;
+}
 
+.online {
+    border: 5px solid green;
+}
+
+.offline {
+    border: 5px solid red;
 }
 
 .avatar {
-
+margin: 10px 20px;
 }
 
 .name {
-
-} */
+    color: rgb(32, 28, 28);
+    font-weight: bold;
+}
