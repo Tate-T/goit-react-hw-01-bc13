@@ -9,12 +9,16 @@
     text-transform: uppercase;
 }
 
-.item {
+.head, .item {
     width: 200px;
     text-align: center;
     padding: 10px;
     border: 1px solid rgb(180, 178, 178);
     box-shadow: 2px 2px 2px grey;
+}
+
+.item {
+    color:dimgray;
 }
 
 .transactionTable:nth-child(2n) {

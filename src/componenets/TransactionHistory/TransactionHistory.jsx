@@ -8,9 +8,9 @@ const TransactionHistory = ({ items }) => {
             <table className={s.transactionHistory}>
                 <thead className={s.transactionHead}>
                     <tr>
-                        <th className={s.item}>Type</th>
-                        <th className={s.item}>Amount</th>
-                        <th className={s.item}>Currency</th>
+                        <th className={s.head}>Type</th>
+                        <th className={s.head}>Amount</th>
+                        <th className={s.head}>Currency</th>
                     </tr>
                 </thead>
 
