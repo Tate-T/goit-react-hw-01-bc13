@@ -1,3 +1,22 @@
-/* .transactionHistory {
+.transactionHistory {
+    margin: 20px auto;
+}
 
-} */
+.transactionHead {
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.item {
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(180, 178, 178);
+    box-shadow: 2px 2px 2px grey;
+}
+
+.transactionTable:nth-child(2n) {
+    background-color:lightblue;
+}
